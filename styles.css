@@ -11,19 +11,18 @@
 }
 body {
   font-family: var(--font);
+  font-size: 16px;
+  color: var(--dark);
+  background-color: var(--white);
 }
 .logo {
   font-family: var(--logo-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-}
-.logo:focus,
-.logo:hover {
-  color: var(--primary-brand);
 }
 .dark {
   color: var(--dark);
@@ -37,8 +36,7 @@ body {
 .page-nav-link {
   color: var(--dark);
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -47,7 +45,7 @@ body {
   color: var(--primary-brand);
 }
 .current {
-  color: var(--accent);
+  color: var(--pressed-state);
 }
 .address-list {
   list-style: none;
@@ -55,9 +53,7 @@ body {
 .address-link {
   color: var(--text);
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -81,7 +77,7 @@ body {
   letter-spacing: 0.04em;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
 }
 .filter-item:hover,
 .filter-item:focus {
@@ -100,21 +96,17 @@ body {
   border: 1px solid var(--accent);
   width: 360px;
 }
-.portfolio-card-title {
-  color: var(--dark);
+.section-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
 
   letter-spacing: 0.02em;
 }
-.portfolio-card-text {
-  color: var(--text);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-
+.section-text {
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--text);
 }
 .light {
   color: var(--light);
@@ -124,63 +116,43 @@ body {
 }
 .footer-text {
   color: var(--accent);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-
-  letter-spacing: 0.02em;
 }
-.title {
+.hero {
   background-color: var(--dark);
 }
-.title-text {
-  font-weight: 700;
+.hero-title {
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
 
   text-align: center;
   letter-spacing: 0.02em;
 
   color: var(--white);
 }
-.title-btn {
+.hero-btn {
   background-color: var(--pressed-state);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 1px solid var(--pressed-state);
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   font-family: inherit;
   color: var(--white);
 }
-.title-btn:hover,
-.title-btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   cursor: pointer;
   background-color: var(--primary-brand);
 }
 .benefits-list {
   list-style: none;
 }
-.benefits-item-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--dark);
-}
-.benefits-item-text {
-  font-size: 16px;
-  line-height: 24px;
 
-  letter-spacing: 0.02em;
-  color: var(--text);
-}
 .section-title {
-  font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
 
   text-align: center;
   letter-spacing: 0.02em;
@@ -196,17 +168,4 @@ body {
 }
 .team-list {
   list-style: none;
-}
-.team-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--dark);
-}
-.team-text {
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--text);
 }
